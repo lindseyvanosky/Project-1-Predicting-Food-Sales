@@ -38,7 +38,7 @@ Our data source is a csv file that originally had 12 columns and 8,523 entries.
 
 ## Model
 My final model was a Decision Tree. This model allowed for the most hyperparameter tuning. After determining the ideal values for relevant hyperparameters, I ran the regression tree and calculated the following metrics from our test data:
-- r2 score: 0.41
+- r2 score: 0.59
 - RMSE: 1063.76
 <br>
 This r2 score is telling us that this model can speak for 41% of the data. This is a low r2 score. Our RMSE score is telling us that there is a +/- $1,063,760 error on the predictions. Arguably, this model does not do a good job at solving the business needs. 
